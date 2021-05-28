@@ -1,0 +1,443 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  color: #000000;
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+}
+
+header {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  padding-top: 8px;
+  padding-left: 2rem;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+header p {
+  font-size: 2.5rem;
+  margin-top: 0;
+    margin-bottom: 0;
+}
+
+.lhs {
+  display: inline-block;
+  font-weight: 500;
+}
+
+.lhs h1 {
+  padding-left: 2.5rem;
+    margin-top: 16px;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.rhs {
+  display: inline-block;
+    position: relative;
+    right: -31rem;
+top: -4rem;
+}
+
+.rhs img {
+  display: inline-block;
+  width: 3rem;
+  margin-left: 1rem;
+}
+
+.rhs :last-child {
+  transform: rotate(90deg);
+}
+
+.thin-line {
+  background-color: #CBD6E0;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.HeaderCard {
+  margin: 0 2.5rem;
+  font-weight: 400;
+}
+
+.HeaderCardSmall {
+  position: relative;
+  display: inline-block;
+  width: 28%;  
+}
+
+.HeaderCardSmallSecondChild {
+  position: relative;
+  display: inline-block;
+  width: 36%;
+}
+
+.HeaderCardSmallThirdChild {
+  position: relative;
+  display: inline-block;
+  width: 28%;  
+}
+
+.HeaderCardSmall h1 {
+  margin: 0 1rem;
+  position: relative;
+  bottom: 1.3rem;
+}
+
+.HeaderCardSmallSecondChild h1 {
+  margin: 0 1rem;
+  position: relative;
+  bottom: 1.3rem;
+}
+
+.HeaderCardSmallThirdChild h1 {
+  margin: 0 1rem;
+  position: relative;
+  bottom: 1.3rem;
+}
+
+.HeaderCardSmall div {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.HeaderCardSmallSecondChild div {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: relative;
+  bottom: 1.8rem;
+}
+
+.HeaderCardSmallThirdChild div {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: relative;
+  bottom: 1.8rem;
+}
+
+.HeaderCardSmallSecondChild * {
+  display: inline-block;
+}
+
+.HeaderCardSmallThirdChild * {
+  display: inline-block;
+}
+
+.HeaderCardSmall * {
+  display: inline-block;
+}
+
+.location {
+  width: 3rem;
+  margin-top: 0.5rem;
+}
+
+.location-2 {
+  position: relative;
+top: 0.8rem;
+  width: 2rem;
+}
+
+.location-3 {
+  position: relative;
+top: 1.1rem;
+  width: 2rem;
+}
+
+.thin-vertical-line {
+  background-color: #CBD6E0;
+  height: 3.5rem;
+  width: 1px;
+  margin: auto 1rem;
+  display: inline-block;
+}
+
+input {
+  background-color: #EDF2F7;
+  width: 90%;
+  height: 7rem;
+  font-size: 2.3rem;
+  padding-left: 2rem;
+  margin: auto 3%;
+  opacity: 90%;
+  border-style: none;
+  border-radius: 1rem;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.box-section {
+  margin-bottom: 5rem;
+}
+
+.box {
+  display: inline-Block;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.left-box {
+  background-color: #227EFF;
+  border-radius: 0 0.5rem 0.5rem 0;
+  width: 5%;
+  margin-right: 2%;
+}
+
+.middle-box {
+  width: 86%;
+  background-color: #003277;
+  border-radius: 1rem;
+  margin-right: 2%;
+}
+
+.right-box {
+  background-color: #EE6F44;
+  border-radius: 0.5rem 0 0 0.5rem;
+  width: 5%;
+}
+
+.none {
+  display: none;
+}
+
+.show {
+  position: relative;
+}
+
+.inv-box {
+    background-image: linear-gradient(179.33deg, #0350BB 0.57%, rgba(3, 80, 187, 0) 114.02%);
+    height: 24rem;
+    width: 25%;
+    display: inline-block;
+    opacity: 30%;
+    position: relative;
+}
+
+.inv-box-1 {
+  transform: matrix(0.82, -0.32, 0.76, 0.9, 0, 0);
+  margin-right: 10rem;
+  left: 1rem;
+  bottom: 9rem;
+}
+
+.inv-box-2 {
+  left: 21rem;
+    top: 10rem;
+  transform: matrix(0.82, -0.32, 0.76, 0.9, 0, 0);
+}
+
+.mother-text {
+  position: absolute;
+  top: 0;
+  font-size: 2rem;
+  color: white;
+  margin: 5rem 3.5rem;
+  letter-spacing: 0.15rem;
+}
+
+.mother-text * {
+  display: inline-block;
+  
+}
+
+.issues-text {
+  font-weight: 700;
+  margin-right: 6rem;
+  max-width: 50%;
+}
+
+span {
+  color: #EE6F44;
+}
+
+button {
+  background-color: #227EFF;
+  font-size: 1.5rem;
+  height: 6rem;
+  width: 16rem;
+  font-weight: 300;
+  color: white;
+  border-radius: 1rem;
+  letter-spacing: 0.15rem;
+  border-style: none;
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.smallball {
+  position: absolute;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.orange {
+  background-color: #EE6F44;
+}
+
+.dark-yellow {
+  background-color: #FFC042;
+}
+
+.yellow {
+  background-color: #FFD175;
+}
+
+.green {
+  background-color: #07D571;
+}
+
+.big {
+  height: 6px;
+  width: 6px;
+}
+
+.small {
+  height: 5px;
+  width: 5px;
+}
+
+.ball-one {
+  top: 9rem;
+}
+
+.ball-two {
+  top: 17.5rem;
+  left: 1.5rem;
+}
+
+.ball-three {
+  top: 3rem;
+  left: 8.5rem;
+}
+
+.ball-four {
+  top: 4rem;
+  left: 13rem;
+}
+
+.ball-five {
+  top: 12.5rem;
+  left: 21rem;
+}
+
+.ball-six {
+  top: 8.6rem;
+  left: 22.2rem;
+}
+
+.ball-seven {
+  top: 5.8rem;
+  left: 23.3rem;
+}
+
+.ball-eight {
+  top: 0.3rem;
+  right: 26rem;
+}
+
+.ball-nine {
+  top: 11rem;
+  right: 23.5rem;
+}
+
+.ball-ten {
+  bottom: 7rem;
+  right: 22rem;
+}
+
+.ball-eleven {
+  bottom: 9rem;
+  right: 21.4rem;
+}
+
+.product-card {
+  margin: auto 3%;
+  margin-bottom: 5rem;
+}
+
+.small-product-card {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+}
+
+.small-product-card-p {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.small-card {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  display: inline-block;
+}
+
+.blue-product {
+  background-color: #227EFF;
+}
+
+.orange-product {
+  background-color: #EE6F44;
+}
+
+.purple-product {
+  background-color: #7E42F5;
+}
+
+.green-product {
+  background-color: #05944F;
+}
+
+.product-card-icons-div {
+  position: relative;
+  top: 2rem;
+}
+
+.icon-img {
+  width: 3rem;
+}
+
+.thumb {
+  width: 2.5rem;
+}
+
+.shop {
+  width: 4rem;
+}
+
+.fire-icon {
+  position: absolute;
+  width: 1.5rem;
+  top: 1.8rem;
+  left: 3.2rem;
+}
+
+.wrist-icon {
+  position: relative;
+  bottom: 0.4rem;
+  width: 1.1rem;
+}
+
+.margin-right {
+  margin-right: 6.5%;
+}
+
+.move-top {
+  position: fixed;
+}
