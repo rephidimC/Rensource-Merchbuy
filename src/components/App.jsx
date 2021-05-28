@@ -4,6 +4,7 @@ import HeaderCard from "./Header-card.jsx";
 import Input from "./Input.jsx";
 import Boxes from "./Boxes.jsx";
 import ProductCard from "./ProductCard.jsx";
+import ThreeCards from "./Three-cards.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Input placeholder="Search merchbuy"/>
       <Boxes />
       <ProductCard />
+      <ThreeCards />
     </div>
   );
 }
