@@ -5,6 +5,22 @@ import Input from "./Input.jsx";
 import Boxes from "./Boxes.jsx";
 import ProductCard from "./ProductCard.jsx";
 import ThreeCards from "./Three-cards.jsx";
+import details from "../business-details.js";
+
+function createEntry(details) {
+  return (
+    <ThreeCards 
+      key={details.id}
+      src={details.src}
+      threeCardsText1={details.threeCardsText1}
+      threeCardsText2={details.threeCardsText2}
+      threeCardsText3={details.threeCardsText3}
+      text1={details.text1}
+      text2={details.text2}
+      text3={details.text3}
+    />
+  );
+}
 
 function App() {
   return (
@@ -16,7 +32,7 @@ function App() {
       <Input placeholder="Search merchbuy"/>
       <Boxes />
       <ProductCard />
-      <ThreeCards />
+      {details.map(createEntry)}
     </div>
   );
 }
