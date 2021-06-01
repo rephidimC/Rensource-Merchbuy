@@ -13,7 +13,7 @@ function headerCard() {
         first = "/location.svg"
         text = "Lagos"
         second = "/down-arrow.png"
-        display = {{width: "1.5rem", position: "relative", bottom: "1rem", left: "1rem"}}
+        display = {{width: "1.9rem", position: "relative", bottom: "1rem"}}
         none = {{display: "none"}}
       />
        <div className="thin-vertical-line"></div>
@@ -32,7 +32,7 @@ function headerCard() {
         first = "/shopping-cart.png"
         text = "Cart"
         display = {{display: "none"}}
-        none = {{backgroundColor: "#EE6F44", width: "2rem", height: "2rem", top: "-2.5rem", right: "7rem"}}
+        none = {{backgroundColor: "#EE6F44", width: "2rem", height: "2rem", top: "-2.5rem", right: "8.7rem"}}
       />
     </div>
   );

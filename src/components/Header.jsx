@@ -1,13 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Header() {
-  // var dateToday = new Date();
-  // var timeNow = dateToday.getTime();
+  // var today = new Date();
+  // var time = today.getHours() + ":" + today.getMinutes();
+  // const [currentTime, setCurrentTime] = useState({time});
+
+  let generatedTime = new Date().toLocaleTimeString("en-US", {
+    hour12: false,
+    hour: "numeric",
+    minute: "numeric"
+  });
+  var [time, setTime] = useState(generatedTime);
+
+  function getTime() {
+    const newTime = new Date().toLocaleTimeString("en-US", {
+      hour12: false,
+      hour: "numeric",
+      minute: "numeric"
+    });
+    setTime(newTime);
+  }
+  setInterval(getTime, 1000);
 
   return (
     <header>
       <div className="lhs">
-        <h1>9:41</h1>
+        <h1>{time}</h1>
         <p>Trollbasket</p>
       </div>
       <div className="rhs">

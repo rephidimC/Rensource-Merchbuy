@@ -63,7 +63,7 @@ top: -4rem;
 }
 
 .HeaderCard {
-  margin: 0 2.5rem;
+  margin: 0 2rem;
   font-weight: 400;
 }
 
@@ -90,19 +90,20 @@ top: -4rem;
   position: relative;
   bottom: 1.3rem;
   font-weight: 400;
+  right: 1rem;
 }
 
 .HeaderCardSmallSecondChild h1 {
-  margin: 0 1rem;
+  margin: 0 0 0 1.5rem;
   position: relative;
-  bottom: 1.3rem;
+  bottom: 1.1rem;
   font-weight: 400;
 }
 
 .HeaderCardSmallThirdChild h1 {
-  margin: 0 1rem;
+  margin: 0.2rem 0 0 4rem;
   position: relative;
-  bottom: 1.3rem;
+  bottom: 1rem;
   font-weight: 400;
 }
 
@@ -112,6 +113,7 @@ top: -4rem;
   border-radius: 50%;
   position: relative;
   bottom: 0.5rem;
+  right: 1rem;
 }
 
 .HeaderCardSmallSecondChild div {
