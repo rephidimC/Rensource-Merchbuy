@@ -23,7 +23,10 @@ function SmallBoxes(props) {
         <div className="inv-box inv-box-2">
         </div>
         <div className="mother-text">
-          <p className="issues-text">Having any <span>issues</span> with your order?</p>
+        <div className="mother-text-div">
+        <p className="issues-text">Having any <span>issues</span> with</p>
+          <p className="issues-text">your order?</p>
+        </div>
           <button>Contact Us</button>
         </div>
       </div>
