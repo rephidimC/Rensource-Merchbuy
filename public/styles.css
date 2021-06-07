@@ -1,3 +1,7 @@
+/* html {
+  font-size: 62.5%;
+} */
+
 body {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 300;
@@ -10,7 +14,7 @@ body {
 
 .container {
   margin: 0;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 header {
@@ -23,7 +27,7 @@ header {
 header p {
   font-size: 2.5rem;
   margin-top: 0;
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .line-2 {
@@ -257,10 +261,7 @@ input {
 }
 
 .issues-text {
-  /* position: relative;
-  top: 0.5rem; */
   font-weight: 500;
-  /* max-width: 60%; */
   line-height: 3rem;
   margin: 0 auto;
 }
@@ -513,7 +514,6 @@ footer {
 
 .footer-card img {
   max-width: 30%;
-  /* border: 1px solid #718596; */
 }
 
 .footer-card p {
@@ -522,7 +522,7 @@ footer {
 
 .header-details {
   vertical-align: middle;
-  margin: auto 5%;
+  margin: auto 5% 2rem;
 }
 
 .four-corner {
@@ -591,4 +591,109 @@ footer {
   font-weight: 400;
   position: relative;
   bottom: 1.2rem;
+}
+
+.body-details-container{
+  height: 45rem;
+  width: 100%;
+  background-color: #E2E9F0;
+  text-align: center;
+}
+
+.body-details-container img{
+  height: 86%;
+  width: 85%;
+  background-color: #E5E5E5;
+  border-radius: 5%;
+  margin: 5% auto;
+}
+
+.thin-line-2 {
+  background-color: #CBD6E0;
+  height: 0.5rem;
+  width: 100%;
+}
+
+.product-details {
+  padding: 1rem 2.3rem 0;
+}
+
+.product-name {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #212C3D;
+  margin-bottom: 0.5rem;
+  text-size-adjust: 100%;
+  display: inline-block;
+}
+
+.product-specifics {
+  color: #627483;
+  font-weight: 400;
+  font-size: 1.9rem;
+  margin-top: 0;
+  text-size-adjust: 100%;
+  letter-spacing: 0.04rem;
+  line-height: 3.5rem;
+}
+
+.product-price {
+  font-weight: 700;
+  font-size: 2.7rem;
+  text-size-adjust: 100%;
+  color: #212C3D;
+  ;
+}
+
+.product-price-span {
+  color: #627483;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.product-description {
+  padding: 0 2.3rem;
+  color: #212C3D;
+  margin: 2.5rem 0;
+}
+
+.product-description p {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #212C3D;
+  text-size-adjust: 100%;
+  display: inline-block;
+  margin: 0 56% 0 0;
+}
+
+.product-description img {
+  position: relative;
+  top: 0.5rem;
+  width: 2.5rem;
+}
+
+.reviews {
+  margin: 2.5rem 2.3rem;
+  text-size-adjust: 100%;
+  font-size: 2.3rem;
+  font-weight: 400;
+  text-size-adjust: 100%;
+}
+
+.reviews-first-row {
+  margin: 2.5rem auto;
+}
+
+.reviews-first-row p {
+  display: inline-block;
+  margin: 0;
+}
+
+.reviews-first-row :first-child {
+  margin-right: 48%;
+  color: #212C3D;
+}
+
+.reviews-first-row :nth-child(2) {
+  color: #227EFF;
 }
