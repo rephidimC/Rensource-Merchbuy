@@ -10,10 +10,10 @@ body {
 
 .container {
   margin: 0;
+  padding-top: 2rem;
 }
 
 header {
-  margin-top: 2rem;
   margin-bottom: 2.5rem;
   padding-top: 8px;
   padding-left: 2rem;
@@ -26,32 +26,26 @@ header p {
     margin-bottom: 0;
 }
 
-.lhs {
-  display: inline-block;
+.line-2 {
   font-weight: 500;
 }
 
-.lhs h1 {
+.line-1 h1 {
   padding-left: 2.5rem;
-    margin-top: 16px;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-}
-
-.rhs {
+  margin-top: 16px;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
   display: inline-block;
-    position: relative;
-    right: -31rem;
-top: -4rem;
+  margin-right: 61%;
 }
 
-.rhs img {
+.line-1 img {
   display: inline-block;
   width: 3rem;
   margin-left: 1rem;
 }
 
-.rhs :last-child {
+.line-1 :last-child {
   transform: rotate(90deg);
 }
 
@@ -526,4 +520,75 @@ footer {
   margin: 1rem auto 0;
 }
 
-/* 20rem, 53rem */
+.header-details {
+  vertical-align: middle;
+  margin: auto 5%;
+}
+
+.four-corner {
+  background-color: rgb(237, 242, 247);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 15%;
+  position: relative;
+  bottom: 0.5rem;
+  right: 1rem;
+  display: inline-block;
+  text-align: center;
+  margin-right: 33%;
+}
+
+.details-heading {
+  width: 20%;
+  display: inline-block;
+  font-size: 2.5rem;
+  margin: 0;
+  margin-right: 20%;
+  text-align: center;
+  position: relative;
+    bottom: 1rem;
+}
+
+.four-corner img {
+  margin-top: 0.5rem;
+  width: 3rem;
+}
+
+.round-edge {
+  background-color: rgb(237, 242, 247);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: relative;
+  bottom: 0.5rem;
+  right: 1rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.round-edge img {
+  margin-top: 0.5rem;
+  width: 3rem;
+}
+
+.cart-side {
+  margin-left: 5%;
+}
+
+.cart-increament {
+  background-color: rgb(238, 111, 68);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: -1.5rem;
+    right: -1.5rem;
+    border-radius: 50%;
+}
+
+.cart-increament p {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  position: relative;
+  bottom: 1.2rem;
+}
